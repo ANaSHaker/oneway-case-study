@@ -1,0 +1,6 @@
+{
+  "name": "oneway-case-study",
+  "description": "Case study: OneWay Fast Food, a white-label redeployment of a Flutter delivery platform. New brand kit, adaptive live driver location, polygon coverage zones, checkout memory and golden tests. One codebase, a new brand in one constant",
+  "topics": ["flutter", "case-study", "white-label", "food-delivery", "bloc", "get-it", "golden-tests", "thermal-printing", "arabic", "rtl"],
+  "homepage": null
+}

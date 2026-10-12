@@ -1,0 +1,93 @@
+{
+  "outDir": "..",
+  "brand": {
+    "name": "OneWay",
+    "tagline": "White-label redeployment of a production delivery platform under a new brand.",
+    "accent": "#5B22E6",
+    "accent2": "#B07CFF",
+    "logo": "oneway_tile.png",
+    "dark": true
+  },
+  "images": [
+    {
+      "type": "banner",
+      "file": "banner.png",
+      "kicker": "Case Study · White-label delivery",
+      "subtitle": "Customer, driver and restaurant apps re-branded and hardened for a new market.",
+      "screens": [
+        "D:/shaker-github/_work/oneway-shots/flow_details.png",
+        "D:/shaker-github/_work/oneway-shots/kitchen_phone.png",
+        "D:/shaker-github/_work/oneway-shots/menu_phone_dark.png"
+      ],
+      "devices": [
+        "android",
+        "iphone",
+        "android"
+      ],
+      "chips": [
+        "Flutter",
+        "Bloc + get_it",
+        "dartz",
+        "Golden tests",
+        "Arabic RTL"
+      ]
+    },
+    {
+      "type": "devices",
+      "file": "screens-restaurant.png",
+      "title": "Restaurant app — kitchen, order, menu, money",
+      "screens": [
+        "D:/shaker-github/_work/oneway-shots/kitchen_phone.png",
+        "D:/shaker-github/_work/oneway-shots/flow_details_dark.png",
+        "D:/shaker-github/_work/oneway-shots/menu_phone.png",
+        "D:/shaker-github/_work/oneway-shots/money_hub_dark.png"
+      ],
+      "devices": [
+        "iphone",
+        "android",
+        "iphone",
+        "android"
+      ],
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "type": "html",
+      "file": "tablet-board.png",
+      "width": 1600,
+      "height": 1000,
+      "body": "<div class='grid-bg'></div><div style='position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:44px'><div class='title' style='font-size:42px'>Tablet layout — live ticket board</div><div style='width:1240px;padding:22px;border-radius:44px;background:#1b1d22;box-shadow:0 0 0 2px #3a3d45,0 50px 100px -30px #000d,0 0 140px -40px #5B22E688'><img src='file:///D:/onewayfastfood/restaurant-app/test/visual/goldens/flow_ticket_board.png' style='display:block;width:100%;border-radius:24px'></div></div>"
+    },
+    {
+      "type": "feature",
+      "file": "feature-printing.png",
+      "kicker": "Signature feature",
+      "title": "Kitchen tickets that print themselves",
+      "points": [
+        "Printer cascade: Sunmi → built-in POS over LocalSocket → Bluetooth",
+        "Arabic receipt on 80 mm ESC/POS with order barcode",
+        "Auto-print with a persisted 'already printed' set",
+        "3 retries, 15 s heartbeat, catch-up on reopen"
+      ],
+      "screens": [
+        "D:/onewayfastfood/restaurant-app/test/visual/goldens/flow_invoice.png",
+        "D:/shaker-github/_work/oneway-shots/kitchen_phone_dark.png"
+      ],
+      "devices": [
+        "card",
+        "android"
+      ],
+      "width": 1600,
+      "height": 1000,
+      "css": ".android,.card{align-self:center}"
+    },
+    {
+      "type": "html",
+      "file": "brand-kit.png",
+      "width": 1600,
+      "height": 900,
+      "css": ".sw{display:flex;flex-direction:column;gap:10px;align-items:center;font-size:18px;font-weight:600}.sw i{display:block;width:120px;height:120px;border-radius:28px;box-shadow:0 0 0 1px #ffffff22,0 20px 40px -10px #000a}.ic{display:flex;flex-direction:column;align-items:center;gap:14px;font-size:20px;font-weight:600}.ic img{width:150px;height:150px;border-radius:36px;box-shadow:0 20px 50px -10px #000c}",
+      "body": "<div class='grid-bg'></div><div style='position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 110px;gap:56px'><div><div class='accent' style='font-size:22px;font-weight:600'>Brand kit</div><div class='title' style='font-size:54px;margin-top:10px'>One brand kit → three apps + web</div></div><div style='display:flex;gap:90px;align-items:center'><div style='width:340px;height:340px;border-radius:48px;background:#F7F5FF;display:flex;align-items:center;justify-content:center;box-shadow:0 30px 80px -20px #000c'><img src='file:///D:/onewayfastfood/_shared/brand/ow_logo.png' style='width:280px'></div><div style='display:flex;flex-direction:column;gap:46px'><div style='display:flex;gap:44px'><div class='ic'><img src='file:///D:/shaker-github/repos/oneway-case-study/assets/_src/oneway_tile.png'>Customer</div><div class='ic'><img src='file:///D:/onewayfastfood/driver-app/store/icon_512x512.png'>Driver</div><div class='ic'><img src='file:///D:/onewayfastfood/restaurant-app/store/icon_512x512.png'>Restaurant</div></div><div style='display:flex;gap:30px'><div class='sw'><i style='background:#5B22E6'></i>#5B22E6</div><div class='sw'><i style='background:#8B4FE8'></i>#8B4FE8</div><div class='sw'><i style='background:#241259'></i>#241259</div><div class='sw'><i style='background:#F7F5FF'></i>#F7F5FF</div><div class='sw'><i style='background:#0C0A17'></i>#0C0A17</div></div></div></div></div>"
+    }
+  ]
+}
